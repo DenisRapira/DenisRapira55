@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./home-screen.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+    />
+  </head>
+  <body>
+    <div class="home-screen">
+      <img
+        class="home-screen-child"
+        alt=""
+        src="./public/group-103.svg"
+        id="groupIcon"
+      />
+
+      <div class="home-screen-item"></div>
+      <div class="cprogram-wrapper">
+        <div class="macbook">Программы 1С</div>
+      </div>
+      <div class="services-wrapper" id="frameContainer1">
+        <div class="macbook">Услуги по 1С</div>
+      </div>
+      <img class="bell-icon" alt="" src="./public/bell.svg" />
+
+      <div class="training-wrapper" id="frameContainer2">
+        <div class="macbook">Обучение 1С</div>
+      </div>
+      <div class="home-screen-inner">
+        <div class="group-parent">
+          <div class="rectangle-parent">
+            <div class="group-child"></div>
+            <div class="macbook-air">Бизнес Старт</div>
+            <img
+              class="kindpng-icon"
+              alt=""
+              src="./public/deskpro_icon.png"
+            />
+            <div class="group-inner" id="rectangle2"></div>
+            <div class="detail">Перейти</div>
+          </div>
+          <div class="rectangle-group">
+            <div class="group-child"></div>
+            <div class="macbook-air">Отчетность</div>
+            <div class="group-child4"></div>
+            <div class="detail">Перейти</div>
+            <img
+              class="mbp16-gray-1-icon"
+              alt=""
+              src="./public/c_alt.png"
+            />
+          </div>
+          <div class="rectangle-container">
+            <div class="group-child"></div>
+            <div class="macbook-air">Бухгалтерия КОРП</div>
+            <div class="group-child4"></div>
+            <div class="detail">Перейти</div>
+            <img
+              class="the-notch-icon"
+              alt=""
+              src="./public/programsetup87327.png"
+            />
+          </div>
+          <div class="group-div">
+            <div class="group-child"></div>
+            <div class="macbook-air">1С:ЭДО</div>
+            <div class="group-child4"></div>
+            <div class="detail">Перейти</div>
+            <img
+              class="gd5ea3026c-1920-1-icon"
+              alt=""
+              src="./public/editdocument.png"
+            />
+          </div>
+        </div>
+      </div>
+      <div class="frame-div">	  
+        <div class="frame-parent">
+          <div class="group-wrapper">
+            <div class="rectangle-parent3">
+              <div class="group-child28"></div>
+              <div class="Accounting">1С:Бухгалтерия</div>
+              <img class="vector-icon" alt="" src="./public/vector11.png" />
+            </div>
+          </div>
+          <div class="rectangle-parent4" id="groupContainer8">
+            <div class="group-child29"></div>
+            <div class="Trading">1C:УТ</div>
+            <img
+              class="Trading-icon"
+              alt=""
+              src="./public/landscape.png"
+            />
+          </div>
+          <div class="rectangle-parent5" id="groupContainer9">
+            <div class="group-child29"></div>
+            <div class="ERP">1С:ERP</div>
+            <img class="ERP-icon" alt="" src="./public/ERP.png" />
+          </div>
+          <div class="rectangle-parent6" id="groupContainer10">
+            <div class="group-child29"></div>
+            <img class="CRM-icon" alt="" src="./public/CRM.png" />
+
+            <div class="CRM">1С:CRM</div>
+          </div>
+          <div class="group-container">
+            <div class="group-frame" id="groupContainer12">
+              <div class="rectangle-parent3">
+                <div class="group-child29"></div>
+                <div class="care">Обслуживание</div>
+                <img class="vector-icon1" alt="" src="./public/care.png" />
+              </div>
+            </div>
+          </div>
+        </div>
+		
+      </div>
+      <div class="component-5">
+        <div class="component-5-inner">
+          <div class="component-5-inner">
+            <img
+              class="unsplash-icon"
+              alt=""
+              src="./public/unsplash9xngoipxceo@2x.png"
+            />
+            <div class="macbook-pro1">1C:Powerilit</div>
+            <div class="exclude">
+              <div class="exclude-child"></div>
+              <div class="tampilan-premium">Подписка Premium</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      var groupIcon = document.getElementById("groupIcon");
+      if (groupIcon) {
+        groupIcon.addEventListener("click", function (e) {
+          window.location.href = "./setting-profil.html";
+        });
+      }
+      
+      var frameContainer1 = document.getElementById("frameContainer1");
+      if (frameContainer1) {
+        frameContainer1.addEventListener("click", function (e) {
+          // Please sync "Home Screen - iMac" to the project
+        });
+      }
+      
+      var frameContainer2 = document.getElementById("frameContainer2");
+      if (frameContainer2) {
+        frameContainer2.addEventListener("click", function (e) {
+          // Please sync "Home Screen - Mac Mini" to the project
+        });
+      }
+      
+      var rectangle2 = document.getElementById("rectangle2");
+      if (rectangle2) {
+        rectangle2.addEventListener("click", function (e) {
+          window.location.href = "./screen.html";
+        });
+      }
+      
+      var groupContainer8 = document.getElementById("groupContainer8");
+      if (groupContainer8) {
+        groupContainer8.addEventListener("click", function (e) {
+          // Please sync "Home Screen - MacBook" to the project
+        });
+      }
+      
+      var groupContainer9 = document.getElementById("groupContainer9");
+      if (groupContainer9) {
+        groupContainer9.addEventListener("click", function (e) {
+          // Please sync "Home Screen - iMac" to the project
+        });
+      }
+      
+      var groupContainer10 = document.getElementById("groupContainer10");
+      if (groupContainer10) {
+        groupContainer10.addEventListener("click", function (e) {
+          // Please sync "Home Screen - iMac" to the project
+        });
+      }
+      
+      var groupContainer12 = document.getElementById("groupContainer12");
+      if (groupContainer12) {
+        groupContainer12.addEventListener("click", function (e) {
+          // Please sync "Home Screen - iMac" to the project
+        });
+      }
+      </script>
+  </body>
+</html>

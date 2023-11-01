@@ -1,0 +1,45 @@
+.preloader-3 {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #000; /* Фон черного цвета */
+    width: 100px; /* Ширина прелоадера */
+    height: 100px; /* Высота прелоадера */
+    border-radius: 50%; /* Для круглого прелоадера */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.preloader-3 svg {
+    max-width: 100%;
+    fill: none;
+    stroke: gold; /* Золотой цвет прелоадера */
+    stroke-linecap: round;
+    stroke-width: 12%;
+}
+
+.preloader-3 use {
+    stroke: white; /* Золотой цвет анимации прелоадера */
+    animation: preloader-3-a 2s linear infinite;
+}
+
+@keyframes preloader-3-a {
+    to {
+        stroke-dashoffset: 0px;
+    }
+}
+.container {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #000; /* Фон черного цвета для контейнера */
+    width: 90%; /* Ширина контейнера на 90% ширины экрана */
+    max-width: 400px; /* Максимальная ширина контейнера */
+    border-radius: 10px; /* Для закругления углов контейнера */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

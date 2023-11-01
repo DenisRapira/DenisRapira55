@@ -1,0 +1,404 @@
+.setting-profil-child {
+  position: absolute;
+  top: 108px;
+  left: 169px;
+  width: 82px;
+  height: 82px;
+}
+.mr-irfan,
+.profile {
+  position: absolute;
+  top: 64px;
+  left: 67px;
+  font-size: 18px;
+  font-weight: 500;
+  color: var(--color-gray-100);
+  display: flex;
+  align-items: center;
+  width: 59px;
+  height: 15px;
+}
+.mr-irfan {
+  top: 202px;
+  left: 173px;
+  font-size: 19px;
+  font-weight: 600;
+  width: 80px;
+}
+.setting-profil-item {
+  position: absolute;
+  top: 271px;
+  left: 0;
+  border-radius: var(--br-6xl);
+  background-color: var(--color-white);
+  width: 428px;
+  height: 655px;
+}
+.vector-icon {
+  position: absolute;
+  height: 1.94%;
+  width: 4.67%;
+  top: 6.8%;
+  right: 88.08%;
+  bottom: 91.25%;
+  left: 7.24%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  cursor: pointer;
+}
+.aktivitas,
+.pengaturan {
+  position: absolute;
+  top: 300px;
+  left: 21px;
+  font-size: var(--font-size-mid);
+  font-weight: 500;
+  color: var(--color-gray-100);
+  display: flex;
+  align-items: center;
+  width: 86px;
+  height: 15px;
+}
+.pengaturan {
+  top: 474px;
+  width: 129px;
+}
+.group-child {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-8xs);
+  background-color: var(--color-white);
+  width: 392px;
+  height: 41px;
+}
+.vector-icon1 {
+  position: absolute;
+  height: 34.15%;
+  width: 2.04%;
+  top: 31.71%;
+  right: 4.08%;
+  bottom: 34.15%;
+  left: 93.88%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.daftar-transaksi {
+  position: absolute;
+  top: 14px;
+  left: 51px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  width: 143px;
+  height: 15px;
+}
+.rectangle-parent {
+  position: absolute;
+  top: 328px;
+  left: 18px;
+  box-shadow: 0 2px 0 rgba(0, 0, 0, 0.02);
+  width: 392px;
+  height: 41px;
+}
+.group-item {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 12px;
+  background-color: rgba(174, 174, 174, 0.1);
+  width: 179px;
+  height: 24px;
+}
+.kartolo727gmailcom {
+  position: absolute;
+  top: 6px;
+  left: 9px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 162px;
+  height: 11px;
+}
+.pusat-bantuan,
+.rectangle-group {
+  position: absolute;
+  color: var(--color-gray-100);
+}
+.rectangle-group {
+  top: 228px;
+  left: 124px;
+  width: 179px;
+  height: 24px;
+  text-align: center;
+  font-size: 13px;
+}
+.pusat-bantuan {
+  top: 648px;
+  left: 18px;
+  font-size: var(--font-size-mid);
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  width: 129px;
+  height: 15px;
+}
+.group-inner,
+.rectangle-wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 392px;
+  height: 71px;
+}
+.group-inner {
+  border-radius: 35.5px;
+  background-color: var(--color-gray-100);
+}
+.rectangle-wrapper {
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.11);
+}
+.logout {
+  position: absolute;
+  top: 26px;
+  left: 161px;
+  display: flex;
+  align-items: center;
+  width: 69px;
+  height: 20px;
+}
+.group-parent {
+  position: absolute;
+  top: 830px;
+  left: 18px;
+  width: 392px;
+  height: 71px;
+  color: var(--color-white);
+}
+.group-icon {
+  position: absolute;
+  height: 2.16%;
+  width: 4.44%;
+  top: 36.61%;
+  right: 88.08%;
+  bottom: 61.23%;
+  left: 7.48%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.rectangle-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  box-shadow: 0 2px 0 rgba(0, 0, 0, 0.02);
+  width: 392px;
+  height: 41px;
+}
+.vector-icon2,
+.vector-icon3 {
+  position: absolute;
+  height: 34.15%;
+  width: 2.04%;
+  top: 34.15%;
+  right: 4.08%;
+  bottom: 31.71%;
+  left: 93.88%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.vector-icon3 {
+  height: 46.34%;
+  width: 5.61%;
+  top: 26.83%;
+  right: 91.07%;
+  bottom: 26.83%;
+  left: 3.32%;
+}
+.group-container {
+  position: absolute;
+  top: 373px;
+  left: 18px;
+  width: 392px;
+  height: 41px;
+}
+.vector-icon4,
+.vector-icon5 {
+  position: absolute;
+  height: 34.15%;
+  width: 2.04%;
+  top: 36.59%;
+  right: 4.08%;
+  bottom: 29.27%;
+  left: 93.88%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.vector-icon5 {
+  height: 56.1%;
+  width: 5.1%;
+  top: 21.95%;
+  right: 91.33%;
+  bottom: 21.95%;
+  left: 3.57%;
+}
+.group-div,
+.vector-icon7 {
+  position: absolute;
+  top: 547px;
+  left: 18px;
+  width: 392px;
+  height: 41px;
+}
+.vector-icon7 {
+  height: 58.54%;
+  width: 6.12%;
+  top: 21.95%;
+  right: 90.82%;
+  bottom: 19.51%;
+  left: 3.06%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.group-parent1,
+.vector-icon9 {
+  position: absolute;
+  top: 592px;
+  left: 18px;
+  width: 392px;
+  height: 41px;
+}
+.vector-icon9 {
+  height: 51.22%;
+  width: 5.61%;
+  top: 24.39%;
+  right: 91.07%;
+  bottom: 24.39%;
+  left: 3.32%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.group-parent2,
+.vector-icon11 {
+  position: absolute;
+  top: 721px;
+  left: 18px;
+  width: 392px;
+  height: 41px;
+}
+.vector-icon11 {
+  height: 80.49%;
+  width: 8.42%;
+  top: 21.71%;
+  right: 88.72%;
+  bottom: -2.2%;
+  left: 2.86%;
+  border-radius: 2px;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.group-parent3,
+.vector-icon13 {
+  position: absolute;
+  top: 418px;
+  left: 18px;
+  width: 392px;
+  height: 41px;
+}
+.vector-icon13 {
+  height: 56.1%;
+  width: 5.36%;
+  top: 21.95%;
+  right: 91.33%;
+  bottom: 21.95%;
+  left: 3.32%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.group-parent4,
+.vector-icon15 {
+  position: absolute;
+  top: 676px;
+  left: 18px;
+  width: 392px;
+  height: 41px;
+}
+.vector-icon15 {
+  height: 58.54%;
+  width: 5.1%;
+  top: 21.95%;
+  right: 91.33%;
+  bottom: 19.51%;
+  left: 3.57%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.group-parent5,
+.vector-icon17 {
+  position: absolute;
+  top: 502px;
+  left: 18px;
+  width: 392px;
+  height: 41px;
+}
+.vector-icon17 {
+  height: 56.1%;
+  width: 5.61%;
+  top: 24.39%;
+  right: 91.07%;
+  bottom: 19.51%;
+  left: 3.32%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.group-parent6 {
+  position: absolute;
+  top: 766px;
+  left: 18px;
+  width: 392px;
+  height: 41px;
+}
+.setting-profil-inner {
+  position: absolute;
+  top: 149px;
+  left: 227px;
+  border-radius: 50%;
+  background-color: var(--color-white);
+  width: 34px;
+  height: 34px;
+}
+.vector-icon18 {
+  position: absolute;
+  height: 1.73%;
+  width: 3.5%;
+  top: 16.95%;
+  right: 41.12%;
+  bottom: 81.32%;
+  left: 55.37%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.setting-profil {
+  position: relative;
+  border-radius: var(--br-xl);
+  background: linear-gradient(180deg, #f0f0f0 50%, rgba(250, 250, 250, 0));
+  backdrop-filter: blur(10px);
+  width: 100%;
+  height: 926px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--color-darkgray-200);
+  font-family: var(--font-poppins);
+}
