@@ -588,7 +588,6 @@
   width: 100%;
   height: 926px;
   display: flex;
-  overflow: hidden;
   text-align: left;
   font-size: var(--font-size-2xs);
   color: var(--color-gray-100);
