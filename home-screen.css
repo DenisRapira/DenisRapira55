@@ -578,7 +578,7 @@
   font-size: 26px;
   color: var(--color-white);
 }
-.home-screen-macbook1 {
+.home-screen{
   position: relative;
   border-radius: var(--br-xl);
   background: linear-gradient(180deg, #f0f0f0 50%, rgba(250, 250, 250, 0));
