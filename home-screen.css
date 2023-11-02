@@ -580,16 +580,24 @@
   font-size: 26px;
   color: var(--color-white);
 }
+@media (max-width: 768px) {
+  .home-screen {
+    max-width: 90%; /* Уменьшаем максимальную ширину на более узких экранах */
+  }
+}
+
+@media (max-width: 480px) {
+  .home-screen {
+    padding: 10px; /* Уменьшаем отступы на самых узких экранах */
+  }
+}
 .home-screen {
-  position: relative;
-  border-radius: var(--br-xl);
-  background: linear-gradient(180deg, #f0f0f0 50%, rgba(250, 250, 250, 0));
-  backdrop-filter: blur(10px);
   width: 100%;
-  height: 926px;
-  overflow: hidden;
-  text-align: left;
-  font-size: var(--font-size-2xs);
-  color: var(--color-gray-100);
-  font-family: var(--font-poppins);
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  padding-right: 10px; /* Положительное значение отступа справа */
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
 }
