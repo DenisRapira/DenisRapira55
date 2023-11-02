@@ -580,9 +580,26 @@
   font-size: 26px;
   color: var(--color-white);
 }
+.home-screen {
+  position: relative;
+  border-radius: var(--br-xl);
+  background: linear-gradient(180deg, #f0f0f0 50%, rgba(250, 250, 250, 0));
+  backdrop-filter: blur(10px);
+  width: 100%;
+  height: 926px;
+  display: flex;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-2xs);
+  color: var(--color-gray-100);
+  font-family: var(--font-poppins);
+}
+/* Базовые стили контейнера */
+
+/* Пример медиа-запросов для адаптивного поведения */
 @media (max-width: 768px) {
   .home-screen {
-    max-width: 90%; /* Уменьшаем максимальную ширину на более узких экранах */
+    max-width: 73%; /* Уменьшаем максимальную ширину на более узких экранах */
   }
 }
 
@@ -590,12 +607,4 @@
   .home-screen {
     padding: 5px; /* Уменьшаем отступы на самых узких экранах */
   }
-}
-.home-screen {
-  width: 100%;
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 20px; /* Отступы со всех сторон */
-  padding-left: 10px; /* Уменьшаем отступ с левой стороны */
-  box-sizing: border-box;
 }
