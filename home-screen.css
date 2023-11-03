@@ -578,16 +578,25 @@
   font-size: 26px;
   color: var(--color-white);
 }
-.home-screen{
-  position: relative;
-  border-radius: var(--br-xl);
-  background: linear-gradient(180deg, #f0f0f0 50%, rgba(250, 250, 250, 0));
-  backdrop-filter: blur(10px);
-  width: 100%;
-  height: 926px;
-  overflow: hidden;
-  text-align: left;
-  font-size: var(--font-size-2xs);
-  color: var(--color-gray-100);
-  font-family: var(--font-poppins);
+
+/* Базовые стили контейнера */
+.container {
+  width: 100%; /* Ширина контейнера равна 100% ширины родительского элемента */
+  max-width: 1200px; /* Максимальная ширина контейнера, чтобы ограничить его на больших экранах */
+  margin: 0 auto; /* Выравнивание по центру */
+  padding: 20px; /* Отступы внутри контейнера */
+  box-sizing: border-box; /* Включить отступы и границы в общую ширину элемента */
+}
+
+/* Пример медиа-запросов для адаптивного поведения */
+@media (max-width: 768px) {
+  .container {
+    max-width: 90%; /* Уменьшаем максимальную ширину на более узких экранах */
+  }
+}
+
+@media (max-width: 480px) {
+  .container {
+    padding: 10px; /* Уменьшаем отступы на самых узких экранах */
+  }
 }
