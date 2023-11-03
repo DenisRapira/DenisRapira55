@@ -580,15 +580,6 @@
   color: var(--color-white);
 }
 
-/* Базовые стили контейнера */
-.home-screen {
-  width: 100%;
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 20px; /* Отступы со всех сторон */
-  padding-left: 10px; /* Уменьшаем отступ с левой стороны */
-  box-sizing: border-box;
-}
 .home-screen {
     --tg-viewport-height: 100vh;
     --tg-viewport-stable-height: 100vh;
